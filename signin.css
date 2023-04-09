@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* start header */
+header .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+header .div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #444;
+    position: fixed;
+    min-height: 65px;
+    width: 100%;
+    padding: 0px 0px;
+    z-index: 3;
+}
+header a{
+    text-decoration: none;
+    font-family: "Noto Kufi Arabic" ,"Open sans",Arial,sans-serif;
+}
+header .logo{
+    display: inline-block;
+    padding: 13px;
+}
+header .logo img{
+    max-height: 36px;
+    width: auto;
+    margin: 0px;
+    
+}
+header .headerlink{
+    color: #efefef;
+    font-size: 14px;
+    padding: 15px 18px;
+    margin: 0px 5px;
+    display:inline-block;
+
+}
+header .headerlink i{
+    color: #efefef;
+    font-size: 18px !important;
+}
+header .headerlink:hover{
+    background-color: #888;
+
+}
+header .headerbtn{
+    color: #efefef;
+    padding: 10px 9px;
+    margin: 9px 0 10px 18px;
+    font-size: 14px;
+    font-family: "Noto Kufi Arabic" ,"Open sans",Arial,sans-serif;
+    border: 1px solid hsla(0, 0%, 94%, .5);
+    display: inline-block;
+}
+header .headerbtn i{
+    color: #efefef;
+    font-size: 14px !important;
+}
+header .headerbtn:hover{
+    background-color: #888;
+    
+}
+header .solid1{
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin: 20px 20px;
+    font-size: 16px;
+    background-color: #efefef;
+    box-shadow: 0 6px 0 0 #efefef, 0 -6px 0 0 #efefef;
+}
+.solid3 {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 21px;
+    margin-top:10px;
+    background:
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat -1px 6px/18px 2px,
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat 6px 14px/11px 2px,
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat 0 2px/4px 2px,
+        radial-gradient(
+            circle,currentColor 60%,
+            transparent 40%)
+            no-repeat 12px 17px/4px 4px,
+        radial-gradient(
+            circle,currentColor 60%,
+            transparent 40%)
+            no-repeat 6px 17px/4px 4px
+}
+.solid3::after,
+.solid3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 2px;
+    height: 14px;
+    background: currentColor;
+    top: 2px;
+    left: 4px;
+    transform: skew(12deg)
+}
+.solid3::after {
+    height: 10px;
+    top: 6px;
+    left: 16px;
+    transform: skew(-12deg)
+}
+.solid4 {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top:12px;
+
+}
+.solid4::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+.fa {
+    display: inline-block;
+    position: absolute;
+    padding-right:10px ;
+    bottom: 35px;
+    right: 268px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+
+}
+.fa-cubes:before {
+    content: "\f1b3";
+}
+.fa-cubes:before {
+    content: "\f1b3";
+
+}
+header .div2 .headerlink span{
+    padding-right: 10px;
+}
+/* end header */
+
+/* start section */
+section .space1{
+    background-color: #eceff4;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 1033.55px;
+    height: 816px;
+    padding: 30px;
+}
+section .space2{
+    background-color: #eceff4;
+    max-width: 768px;
+    height: 700px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .space3{
+    background-color: #eceff4;
+    max-width: 768px;
+    height: 729px;
+    padding-top: 70px;
+
+}
+section .space4{
+    background-color: #fff;
+    max-width: 894px;
+    height: 732px;
+    display: flex;
+    justify-content: flex-end;}
+
+section .containt{
+    font-family: "Noto Kufi Arabic","Open Sans","Helvetica Neue",Helvetica,Arial,serif;
+    padding: 20px 5px;
+    margin: 50px ;
+}
+
+section .containt h1{
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 15px;
+
+}
+section .media{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end baseline;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+section .mediaright{
+    display: table-cell;
+    vertical-align:top;
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+
+    
+}
+section a{
+    text-decoration: none;
+    background-color: initial;
+}
+
+section .brand{
+    padding:10px;
+    height: 48px;
+    width: 48px;
+    display: block;
+    background-size: cover;
+    margin-top: 10px;
+    background-position: left -249px;
+    background-image: url(https://accounts.hsoub.com/static/media/brands-colors.b328b478.svg);
+}
+
+section .mediabody{
+    overflow: hidden;
+    vertical-align: top;
+    
+
+}
+section .media-title{
+    font-weight: 100px;
+    text-align: right;
+    font-size: 18px;
+}
+section .small1{
+    font-size: 15px;
+    
+}
+section .form1{
+    padding-top:50px ;
+
+}
+
+section .formgroup{
+    margin-bottom: 30px;    
+    font-family: "Noto Kufi Arabic","Open Sans","Helvetica Neue",Helvetica,Arial,serif;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+section .formc{
+    color: #222;
+    box-shadow: none;
+    padding: 9px 10px;
+    width: 600px;
+    height: 40px;
+    background-color: #f7f9fc;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.42857;
+
+}
+section .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 600px;
+    height: 40px;
+}
+section .button-s{
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 2px;
+    background-color: #2caae2;
+    font-family: "Noto Kufi Arabic","Open Sans","Helvetica Neue",Helvetica,Arial,serif;
+
+}
+
+
+
